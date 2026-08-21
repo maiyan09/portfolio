@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>maiyan09 — Product Designer</title>
+<meta name="description" content="maiyan09 — Product Designer. Selected work and projects." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="cursor"></div>
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <nav class="nav__inner">
+    <div class="nav__group nav__group--left">
+      <a href="#about" class="pill pill--ghost" data-nav>ABOUT</a>
+      <a href="#skills" class="pill pill--ghost" data-nav>SKILLS</a>
+      <a href="#achievements" class="pill pill--ghost" data-nav>RECOGNITAION</a>
+      <a href="#work" class="pill pill--ghost" data-nav>WORK</a>
+    </div>
+    <a href="#top" class="nav__logo">MAIYAN</a>
+    <div class="nav__group nav__group--right">
+      <a href="#footer" class="pill pill--dark" data-nav>GET IN TOUCH</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <h1 class="hero__wordmark" aria-label="Product Designer">
+      <span class="line" data-line>SAMIUR RAHMAN</span>
+      <span class="line" data-line>MAIYAN </span>
+      <!-- <span class="line" data-line>MAIYAN</span> -->
+    </h1>
+    <div class="typing">
+      <span id="typing-text"></span>
+    </div>
+    <div class="hero__figure">
+      <img src="new.png" alt="3D figurine of Maiyan, product designer, holding a laptop" />
+      <!-- <img src="hero-figure.png" alt="3D figurine of Maiyan, product designer, holding a laptop" /> -->
+    </div>
+    
+    </div>
+  </section>
+<!-- ============ BIO / CONTACT ============ -->
+  <section class="bio" id="about">
+    
+    <svg
+        class="bio-line"
+        viewBox="0 0 1000 300"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+    >
+        <path
+            d="M80 150
+               C180 80, 260 80, 340 150
+               C420 220, 500 220, 580 150
+               C660 80, 740 80, 920 150"
+            stroke="#E1FF00"
+            stroke-width="65"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-opacity="0.55"
+        />
+    </svg>
+    <p class="bio__text" data-reveal>
+      My name is Samiur Rahman Maiyan. I completed my Secondary School Certificate (SSC) from Nilakhya Abul Hashem High School, where I built a strong foundation in my academic journey. My school life was full of learning, experiences, and memorable moments that helped shape who I am today.
+
+      After completing my SSC, I continued my studies at Narsingdi United College and successfully completed my Higher Secondary Certificate (HSC). My college life helped me become more confident, responsible, and focused on my future goals.
+
+      Currently, I am studying Computer Science and Engineering (CSE) at the University of Asia Pacific. I am interested in technology and enjoy learning new things related to computers and programming. I hope to develop my skills and build a successful career in the tech field.
+    </p>
+    <a href="#footer" class="pill pill--dark pill--lg" id="contact" data-reveal>GET IN TOUCH</a>
+  </section>
+
+
+  <!-- ============ SKILLS ============ -->
+<section class="skills" id="skills">
+  <p class="eyebrow" data-reveal>WHAT I KNOW</p>
+  <h2 class="mid-heading" data-reveal>SKILLS</h2>
+
+  <div class="skills__stagger" id="skillsStagger">
+    <svg class="snake-svg" id="snakeSvg">
+      <defs>
+        <linearGradient id="snakeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#223C2E"/>
+          <stop offset="100%" stop-color="#A98A32"/>
+        </linearGradient>
+      </defs>
+      <path class="snake-path" id="snakePath" />
+      <g id="snakeNodes"></g>
+    </svg>
+
+    <div class="skills__grid-fallback">
+      <div class="skill-chip" data-name="C">
+        <span class="skill-chip__index">SK_01</span>
+        <div class="skill-chip__icon-wrap"><img src="img/c.svg" alt="C logo" class="skill-chip__icon" /></div>
+        <p class="skill-chip__name">C</p>
+        <p class="skill-chip__level"><span class="skill-chip__level-dot"></span>Basic</p>
+        <span class="skill-chip__node"></span>
+      </div>
+      <div class="skill-chip" data-name="C++">
+        <span class="skill-chip__index">SK_02</span>
+        <div class="skill-chip__icon-wrap"><img src="img/c++.svg" alt="C++ logo" class="skill-chip__icon" /></div>
+        <p class="skill-chip__name">C++</p>
+        <p class="skill-chip__level"><span class="skill-chip__level-dot"></span>Basic</p>
+        <span class="skill-chip__node"></span>
+      </div>
+      <div class="skill-chip" data-name="HTML">
+        <span class="skill-chip__index">SK_03</span>
+        <div class="skill-chip__icon-wrap"><img src="img/html-1.svg" alt="HTML5 logo" class="skill-chip__icon" /></div>
+        <p class="skill-chip__name">HTML</p>
+        <p class="skill-chip__level"><span class="skill-chip__level-dot"></span>Basic</p>
+        <span class="skill-chip__node"></span>
+      </div>
+      <div class="skill-chip" data-name="CSS">
+        <span class="skill-chip__index">SK_04</span>
+        <div class="skill-chip__icon-wrap"><img src="img/css-3.svg" alt="CSS3 logo" class="skill-chip__icon" /></div>
+        <p class="skill-chip__name">CSS</p>
+        <p class="skill-chip__level"><span class="skill-chip__level-dot"></span>Basic</p>
+        <span class="skill-chip__node"></span>
+      </div>
+      <div class="skill-chip" data-name="JavaScript">
+        <span class="skill-chip__index">SK_05</span>
+        <div class="skill-chip__icon-wrap"><img src="img/javascript-1.svg" alt="JavaScript logo" class="skill-chip__icon" /></div>
+        <p class="skill-chip__name">JavaScript</p>
+        <p class="skill-chip__level"><span class="skill-chip__level-dot"></span>Basic</p>
+        <span class="skill-chip__node"></span>
+      </div>
+      <div class="skill-chip" data-name="GSAP">
+        <span class="skill-chip__index">SK_06</span>
+        <div class="skill-chip__icon-wrap"><img src="img/gsap-greensock.svg" alt="GSAP logo" class="skill-chip__icon" /></div>
+        <p class="skill-chip__name">GSAP</p>
+        <p class="skill-chip__level"><span class="skill-chip__level-dot"></span>Basic</p>
+        <span class="skill-chip__node"></span>
+      </div>
+      <div class="skill-chip" data-name="Python">
+        <span class="skill-chip__index">SK_07</span>
+        <div class="skill-chip__icon-wrap"><img src="img/python-5.svg" alt="Python logo" class="skill-chip__icon" /></div>
+        <p class="skill-chip__name">Python</p>
+        <p class="skill-chip__level"><span class="skill-chip__level-dot"></span>Basic</p>
+        <span class="skill-chip__node"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section class="achievements" id="achievements">
+    <p class="eyebrow" data-reveal>****</p>
+    <h2 class="mid-heading" data-reveal>RECOGNITION</h2>
+
+    <div class="achievements__grid">
+      <article class="achievement-card" data-reveal>
+        <div class="achievement-card__image">
+          <img src="img/achv1.jpg" alt="Describe this achievement" />
+        </div>
+        <p class="achievement-card__title">JRC Math Olympiad</p>
+        <p class="achievement-card__desc">2nd Runner-Up in the JRC Memorial Civil Engineering Contest – Math Olympiad.</p>
+      </article>
+
+      <article class="achievement-card" data-reveal>
+        <div class="achievement-card__image">
+          <img src="img/IMG_0645.jpeg" alt="Describe this achievement" />
+        </div>
+        <p class="achievement-card__title">DevFront Contest</p>
+        <p class="achievement-card__desc">1st Runner-Up in the DevFront Contest, organized by the Software and Hardware Club, CSE.</p>
+      </article>
+
+      <article class="achievement-card" data-reveal>
+        <div class="achievement-card__image">
+          <img src="img/math-quiz.JPG" alt="Describe this achievement" />
+        </div>
+        <p class="achievement-card__title">Math Quiz</p>
+        <p class="achievement-card__desc">5th in the Math quiz.</p>
+      </article>
+    </div>
+</section>
+
+  <!-- ============ WORK ============ -->
+  <section class="work" id="work">
+    <h2 class="section-wordmark" data-reveal>WORK</h2>
+    <section class="projects-horizontal" id="projects">
+        <div class="projects-track">
+            <!-- PROJECT 01 -->
+            <article class="project-panel">
+                <div class="project-info">
+                    <div class="project-content">
+                        <h2 class="project-title">
+                            UCAM -UAP
+                            <span>Login Clone</span>
+                        </h2>
+                        <p class="project-description">
+                            This is very simple log in page of UCAM -UAP.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <a href="https://github.com/maiyan09/ucam-uap-login" target="_blank" class="project-github">
+                            <span>VIEW GITHUB</span>
+                            <span class="github-arrow">↗</span>
+                        </a>
+                        <a href="https://maiyan09.github.io/ucam-uap-login/" target="_blank" class="project-github">
+                            <span>VIEW DEMO</span>
+                            <span class="github-arrow">⭍</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="project-visual">
+
+                    <div class="project-image-wrapper">
+                        <img src="img/project-2.png" alt="Export and Import Management System">
+                    </div>
+                    <span class="project-index">01</span>
+                </div>
+            </article>
+             <!-- PROJECT 02 -->
+            <article class="project-panel">
+                <div class="project-info">
+                    <div class="project-content">
+                        <h2 class="project-title">
+                            Eid Card
+                            <span>GENERATOR</span>
+                        </h2>
+                        <p class="project-description">
+                            A very simple e Eid Card generator 
+                            using HTML, CSS, JS
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <a href="https://github.com/maiyan09/Gift-Card-Generator" target="_blank" class="project-github">
+                            <span>VIEW GITHUB</span>
+                            <span class="github-arrow">↗</span>
+                        </a>
+                        <a href="https://maiyan09.github.io/Gift-Card-Generator/" target="_blank" class="project-github">
+                            <span>VIEW DEMO</span>
+                            <span class="github-arrow">⭍</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <div class="project-image-wrapper">
+                        <img src="img/project-4.png" alt="AI Study Assistant">
+                    </div>
+                    <span class="project-index">02</span>
+                </div>
+            </article>
+            <!-- PROJECT 03 -->
+            <article class="project-panel">
+                <div class="project-info">
+                    <div class="project-content">
+                        <h2 class="project-title">
+                            FANTA ANIMATED
+                            <span>WEBSITE</span>
+                        </h2>
+                        <p class="project-description">
+                            A very simple animated website 
+                            using HTML, CSS, JS (GSAP)
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS (GSAP)</span>
+                        </div>
+                        <a href="https://github.com/maiyan09/fanta-animated" target="_blank" class="project-github">
+                            <span>VIEW GITHUB</span>
+                            <span class="github-arrow">↗</span>
+                        </a>
+                        <a href="https://maiyan09.github.io/fanta-animated/" target="_blank" class="project-github">
+                            <span>VIEW DEMO</span>
+                            <span class="github-arrow">⭍</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <div class="project-image-wrapper">
+                        <img src="img/project-5.png" alt="AI Study Assistant">
+                    </div>
+                    <span class="project-index">03</span>
+                </div>
+            </article>
+            <!-- PROJECT 04 -->
+            <article class="project-panel">
+                <div class="project-info">
+                    <div class="project-content">
+                        <h2 class="project-title">
+                            NETFLIX UI
+                            <span>CLONE</span>
+                        </h2>
+                        <p class="project-description">
+                            A very simple Netflix page clone 
+                            using HTML, CSS
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://github.com/maiyan09/netflix-ui" target="_blank" class="project-github">
+                            <span>VIEW GITHUB</span>
+                            <span class="github-arrow">↗</span>
+                        </a>
+                        <a href="https://maiyan09.github.io/netflix-ui/" target="_blank" class="project-github">
+                            <span>VIEW DEMO</span>
+                            <span class="github-arrow">⭍</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <div class="project-image-wrapper">
+                        <img src="img/project-1.png" alt="AI Study Assistant">
+                    </div>
+                    <span class="project-index">04</span>
+                </div>
+            </article>
+
+            <!-- PROJECT 05 -->
+            <article class="project-panel">
+                <div class="project-info">
+                    <div class="project-content">
+                        <h2 class="project-title">
+                            E COMMERCE
+                            <span>WEBSITE</span>
+                        </h2>
+                        <p class="project-description">
+                            A very simple e commerce website 
+                            using HTML, CSS
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://github.com/maiyan09/e-commerce" target="_blank" class="project-github">
+                            <span>VIEW GITHUB</span>
+                            <span class="github-arrow">↗</span>
+                        </a>
+                        <a href="https://maiyan09.github.io/e-commerce/" target="_blank" class="project-github">
+                            <span>VIEW DEMO</span>
+                            <span class="github-arrow">⭍</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <div class="project-image-wrapper">
+                        <img src="img/project-3.png" alt="AI Study Assistant">
+                    </div>
+                    <span class="project-index">05</span>
+                </div>
+            </article>
+        </div>
+    </section>
+  </section>
+
+  <!-- ============ GIANT WORDMARK ============ -->
+  <section class="signoff" class="next">
+    <h2 class="section-wordmark section-wordmark--wide" data-reveal>maiyan09 <img style="height: 200px; display: inline-block;" src="img/github.svg" alt=""></h2>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="footer">
+  <div class="footer__col">
+    <p class="footer__heading">SOCIALS</p>
+    <ul class="footer__list">
+      <li><a href="https://www.linkedin.com/in/samiur-rahman-maiyan-bb269b384/" data-nav>LINKEDIN</a></li>
+      <li><a href="https://github.com/maiyan09" data-nav>GITHUB</a></li>
+      <li><a href="https://www.instagram.com/samiur.rahman09/" data-nav>INSTAGRAM</a></li>
+    </ul>
+  </div>
+  <div class="footer__col">
+    <p class="footer__heading">PAGES</p>
+    <ul class="footer__list">
+      <li><a href="#top" data-nav>HOME</a></li>
+      <li><a href="#work" data-nav>WORK</a></li>
+      <li><a href="#about" data-nav>ABOUT</a></li>
+    </ul>
+  </div>
+  <div class="footer__col footer__col--copyright">
+    <p>©maiyan09 2026</p>
+  </div>
+</footer>
+
+<script src="gsap.min.js"></script>
+<script src="ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
