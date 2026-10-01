@@ -528,7 +528,6 @@ section{position:relative;}
   stroke:url(#snakeGradient);
   stroke-width:30px;
   stroke-linecap:round;
-  /* filter:drop-shadow(0 0 4px rgba(169,138,50,.35)); */
   filter:drop-shadow(0 0 4px rgb(251, 184, 0));
 }
 .snake-node{

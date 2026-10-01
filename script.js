@@ -95,29 +95,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   );
 
-  /* Nav links to in-page anchors rely on the native CSS
-     `scroll-behavior: smooth` set on <html> — no extra plugin needed. */
-
 });
 
-// let tl = gsap.timeline({
-//   scrollTrigger: {
-//     trigger : ".bio",
-//     start: "top 85%",
-//     end: "end end",
-//     scrub: true
-//   }
-// });
-// gsap.to( ".bio__text__o", {
-//   width: "100%",
-//   scrollTrigger: {
-//     trigger: ".bio",
-//     start: "top 85%",
-//     end: "end end",
-//     scrub: true
-//   }
-// }
-// )
 
 const text = document.querySelector(".bio__text");
 
